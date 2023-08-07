@@ -1,0 +1,54 @@
+.front-page{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.frontpg2{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}
+.frontpg2::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;   
+    opacity: 0.8;
+
+
+}
+ .frontimg2{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+   object-fit: cover; 
+}
+
+.front-page .content{
+   position: absolute;
+   transform: translate(-50%,-50%);
+   top: 30%;
+   left: 50%;
+   text-align: center;
+}
+
+.front-page .headings h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.front-page .headings p{
+    font-size: 1.5rem;
+    color: white;
+}
+.front-page .headings h1:hover{
+    color: blueviolet;
+    transition: 0.3s;
+}
+

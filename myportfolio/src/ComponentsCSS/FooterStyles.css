@@ -1,0 +1,140 @@
+.footer{
+    border: 2px solid white;
+}
+.footer-background{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    
+}
+.footer-img{
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background-position: center;
+    object-fit: cover;
+}
+.footer-background::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blueviolet;
+    opacity: 0.6;
+    z-index: 0;
+    background-attachment: scroll;
+}
+.footer-bg-1st{
+    width: 100%;
+    height: 50%;
+   
+}
+.route-row{
+    margin-top: 1rem;
+}
+.footer-bg-2st{
+    width: 100%;
+    height: 100%;
+    margin: 0rem;
+    padding: 0rem;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8)
+   
+}
+
+
+.content-lower .social-icons{
+    justify-content: right;
+   padding: 1rem;
+   border: 1px solid white;
+   margin: 0;
+   
+}
+#linkedin1,#github1,#hackerrank1{
+    margin: 1rem;
+    max-width: 50px;
+    max-height: 50px;
+   
+}
+
+@media screen and (max-width : 660px){
+    .content-lower .social-icons{
+        margin: 0rem;
+    
+    }
+    .foot-menu{
+    word-wrap: break-word;
+}
+.row .foot-menu .foot-menu-item{
+   word-wrap: break-word;
+    
+}
+}
+
+
+.footer-bg-1st .content-upper{
+     position: absolute;
+     transform: translate(-50%,-50%);
+     top: 50%;
+     left: 50%;
+     text-align: center;
+     margin: 0rem;
+     padding: 0rem;
+     
+     
+}
+
+.foot-menu{
+    display: flex;  
+    margin: 0;
+    padding: 0;
+   
+     
+}
+.foot-menu .foot-menu-item h5{
+    font-size: 1rem;
+    margin: 0.1rem;
+    margin-left: 0.4rem;
+
+    
+}
+
+.row .foot-menu .foot-menu-item{
+    margin:0.5rem;
+    display: flex;
+    
+}
+
+
+
+    .rhombus {
+      margin: 0;
+      padding: 0.4rem;
+     
+      position: relative;
+    
+      &:after{
+        content: '';
+        height: .4rem;
+        width: .4rem;
+        background: black;
+        display: block;
+        position: absolute;
+        transform: rotate(45deg);
+        top: 0.5rem;
+        left: 0;
+      }
+      
+    }
+
+    .content-upper .plan-title {
+       font-size: 3rem;
+       font-weight: 600;
+    }
+    .content-upper .plan-title span:hover {
+       color: rgb(98, 17, 174);
+       transition: 0.3;
+    }
+    
